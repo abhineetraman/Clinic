@@ -63,3 +63,9 @@ body {
 .col-sm-8 li {
     list-style-type: square;
 }
+
+#overview-img {
+    border-radius: 5%;
+    height: 373px;
+    width: 560px;
+}

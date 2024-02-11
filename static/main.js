@@ -115,9 +115,6 @@ const Acne_Treatment = Vue.component("Acne-treatment", {
                         </li>
 
                         <li class="nav-item">
-                            <router-link to="/acne-treatment" class="nav-link">Blog</router-link>
-                        </li>
-                        <li class="nav-item">
                             <router-link to="/acne-treatment" class="nav-link">Gallery</router-link>
                         </li>
 
@@ -151,16 +148,21 @@ const Acne_Treatment = Vue.component("Acne-treatment", {
                         </div>
                         <div class="col-sm-8">
                             <h1> Acne Treatment in Lucknow </h1 >
-                            <button class="btn btn-secondary"><a href="#section-1"> Overview </a></button>
+                            <button class="btn btn-dark"><a href="#section-1"> Overview </a></button>
                             <button class="btn btn-secondary"><a href="#section-2">Symptoms</a></button>
-                            <button class="btn btn-primary"><a href="#section-3">Jump to section 3</a></button>
-                            <button class="btn btn-warning"><a href="#section-4">Jump to section 4</a></button>
+                            <button class="btn btn-primary"><a href="#section-3">Cause</a></button>
+                            <button class="btn btn-warning"><a href="#section-4">Treatments</a></button>
+                            <button class="btn btn-danger"><a href="#section-5">Prevention</a></button>
+
                             <h2 id="section-1">Overview</h2>
                             <p>
                             Most teenagers will have pimples at some point. Some only have a few small spots that soon go away again. Others develop persistent and visible acne. It can be very distressing, particularly in puberty.
                             <br>
                             <br>
                             But several things can be done about acne, although patience is needed. This information concerns acne in teenagers and young adults, known as “common” acne or acne vulgaris.
+                            <br>
+                            <img id="overview-img" src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/2374757.jpg" />
+                            
                             <br><br>
                             Best Acne Treatment Provided by Dr. Asma Dermatologist of The Velvet Skin Centre Lucknow
                             Acne is a skin condition when your hairs become clogged with oil and dead skin cells. It generates whiteheads, blackheads or pimples. Acne is most familiar among teenagers, though it concerns people of all ages.
@@ -220,20 +222,105 @@ const Acne_Treatment = Vue.component("Acne-treatment", {
                             Acne usually occurs on the face, forehead, chest, upper back and shoulders.
                             
                             </p>
-                            <h2 id="section-3">Section 3</h2>
-                            <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                            </p>
-                            <h2 id="section-4">Section 4</h2>
-                            <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                            </p>
-                            <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                            </p>
-                            <p>Go to the
-                            <a href="#section-1">top</a>.
-                            </p>
+                            <h2 id="section-3">Causes of Acne</h2>
+
+                                <p>Both male and female skin has pores that associate with oil glands underneath the skin. Follicles commune the glands to the pores. Follicles are tiny sacs that construct and perspire liquid.</p>
+                                <p>The glands produce an oily liquidTrusted Source called sebum. Sebum maintains dead skin cells via the follicles to the skin's surface. A small hair grows via the follicle out of the skin.</p>
+                                <p>Pimples grow when these follicles get blocked, and oil builds up under the skin.</p>
+                                <p>Skin cells, sebum, and hair can clump into a cork. This cork gets contaminated with bacteria, and swelling results. Acne starts to develop when the plug begins to break down.</p>
+                                <p>Propionibacterium acnes (P. acnes) is the name which is responsible for the bacteria that live on the skin and donate to the infection of pimples.</p>
+                                <p>Research suggestsTrusted Source that the harshness and commonness of acne rely on the strain of bacteria. Not all acne bacteria are responsible for acne. One strain enables to maintain the skin acne-free.</p>
+                                <h4>
+                                    Hormonal factors
+                                </h4>
+                                <p>A range of factors triggers acne, but the main cause is increased androgen levels.</p>
+                                <p>Androgen is a type of hormone, the levels of which rise when adolescence begins. In women, it gets converted into estrogen.</p>
+                                <p> growth of androgen levels causes the oil glands that are beneath the skin to produce. The enlarged gland creates more sebum. Excessive sebum can crack down cellular walls in the pores, causing bacteria to grow.</p>
+                                <h4>
+                                    Other possible triggers
+                                </h4>
+                                <p>Some studies suggestTrusted Source that genetic factors may increase the risk.</p>
+                                <h4>
+                                    Other causes include:
+                                </h4>
+                        
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <ul>
+                                            <li>
+                                                some medications that contain androgen and lithium
+                                            </li>
+                                            <li>
+                                                greasy cosmetics
+                                            </li>
+                                            <li>
+                                                hormonal changes
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <ul>
+                                            <li>
+                                                emotional stress
+                                            </li>
+                                            <li>
+                                                menstruation
+                                            </li>
+                        
+                                        </ul>
+                                    </div>
+                                </div>
+                        
+                                
+                            <br>
+
+                            <h2 id="section-4">Available Acne Treatment</h2>
+                                <p>The acne treatment plan that's right for you depends on many considerations, including </p>
+                                <li>What type of acne (i.e., blackheads, pimples, etc.) do you have</li>
+                                <li>Where the acne appears on your skin</li>
+                                <li>What treatments you’ve already tried</li>
+                                <li>When the breakouts started</li>
+                                <li>Your age</li>
+                                <li>Whether the acne has left you with dark spots or scars</li>
+                        
+                                <p>While a therapy plan can differ from one patient to the next, treatment often follows these guidelines for two patients with the same kind of acne.</p>
+                                <p>Whiteheads, blackheads, or both: If you keep these breakouts, you'll probably use acne medication for your skin. Your therapy plan may include one of the following:</p>
+                                <li>A retinoid</li>
+                                <li>A retinoid + benzoyl peroxide, azelaic acid, or salicylic acid</li>
+                                <li>Benzoyl peroxide + an antibiotic you apply to your skin</li>
+                                <p>Pimples: Mild or moderate pimples cure with the medicine you apply to your skin. The cure will often consist of utilizing one of the following:</p>
+                                <li>Benzoyl peroxide</li>
+                                <li>A Retinoid</li>
+                                <li>Azelaic acid</li>
+                                <li>Benzoyl peroxide + a retinoid or an antibiotic you apply to your skin</li>
+                        
+                                <p>Women who persist in getting breakouts may require medication, such as a birth management tablet which is approved by the U.S.(FDA) and has agreed to cure pimples or scars. The birth management patch may even be useful, as can some other drugs.</p>
+                                <p> You'll find more information about stubborn acne that women can develop: Stubborn acne? Hormonal therapy may help</p>
+                                <p>Acne nodules and cysts: If you have deep, painful acne that usually leaves a permanent scar, an effective cure can help you see clearer skin and stop new scars.</p>
+                                <p>Treatment may consist of:</p>
+                        
+                                <li>Prescription medication that you apply to your skin + taking an antibiotic</li>
+                                <li>Hormonal therapy (women only)</li>
+                                <li>Isotretinoin (medication approved to treat severe acne)</li>
+                                <h5>
+                                    Sometimes acne needs extra help
+                                </h5>
+                                To assist you in getting the best achievable results from treatment, your dermatologist may even recommend counting one of the followership to your treatment plan.<p></p>
+                                <p>Laser or light therapy: Studies indicate that laser and light machines can assist in clearing acne. This kind of treatment performs best when mixed with different acne treatments.</p>
+                                <p>A corticosteroid injection: A dermatologist can inject it with a corticosteroid if you have a large, extremely painful, deep acne breakout. It can rapidly reduce the pain and the size of the breakout. While effective, this treatment is dedicated to treating a few painful acne flights. Using it more than a few times can cause side effects.</p>
+                                <p>A healthy diet: Some studies suggest that what you eat can also help to give you clearer skin. If you think what you're eating could be causing breakouts, find out what the research shows.</p>
+                            <br>
+
+                            <h2 id="section-5">Prevention: Can acne be prevented? </h2>
+                                <p>
+                                    Preventing acne is difficult, if not impossible, during normal hormonal changes. But some things can help:
+                                </p>
+                        
+                                <li>Wash your face daily with warm water and a mild facial cleanser.</li>
+                                <li>Routinely use moisturizer.</li>
+                                <li>You don't have to stop using makeup, but try to use "non-comedogenic" products and remove makeup at the end of each day.</li>
+                                <li>Keep your hands away from your face.</li>
+                            
                             </div>
                         <div class="col-sm-3">
                     </div>
